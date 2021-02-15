@@ -1,0 +1,160 @@
+body{
+    background-image: url(image/background1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    min-height: 100%;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+main img{
+  width: 650px; 
+}
+
+h1{
+  font-family: 'Aktiv Grotesk', cursive;
+  font-size: 40px;
+  width: 39%;
+  padding: 0px 90px;
+}
+
+.headline {
+	font-family: "Montserrat";
+	font-size: 45px;
+	color: #E50E86;
+	position: absolute;
+  left: 45%;
+	top: 7%;
+  width: 200px;
+}
+
+.trio{
+  width: 350px; 
+  position: absolute;
+  left: 60%;
+  right: 15%;
+  top: 40%;
+}
+
+.subhead {
+  font-family: "Montserrat";
+  font-size: 12px;
+  color: black;
+  position: absolute;
+  left: 51%;
+  right: 5%;
+  top: 21%;
+  text-align: left;
+  line-height: 27px;
+}
+
+.headline2 {
+  font-family: "Montserrat";
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  left: 45%;
+  top: 62%;
+  width: 200px;
+}
+
+.img2 {
+  width: 350px; 
+  position: absolute;
+  left: 51%;
+  right: 8%;
+  top: 73%;
+}
+
+.subhead2 {
+  font-family: "Montserrat";
+  font-size: 12px;
+  color: black;
+  position: absolute;
+  left: 51%;
+  right: 5%;
+  top: 106%;
+  text-align: left;
+  line-height: 27px;
+}
+
+.headline3 {
+  font-family: "Montserrat";
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  left: 45%;
+  top: 124%;
+  width: 500px;
+}
+
+.subhead3 {
+  font-family: "Montserrat";
+  font-size: 12px;
+  color: black;
+  position: absolute;
+  left: 51%;
+  right: 5%;
+  top: 171%;
+  text-align: left;
+  line-height: 27px;
+}
+
+.img3 {
+  width: 350px; 
+  position: absolute;
+  left: 51%;
+  right: 8%;
+  top: 135%;
+}
+
+.headline4 {
+  font-family: "Montserrat";
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  left: 45%;
+  top: 190%;
+  width: 500px;
+}
+
+.img4 {
+  width: 350px; 
+  position: absolute;
+  left: 51%;
+  right: 8%;
+  top: 202%;
+}
+
+.subhead4 {
+  font-family: "Montserrat";
+  font-size: 12px;
+  color: black;
+  position: absolute;
+  left: 51%;
+  right: 5%;
+  top: 222%;
+  text-align: left;
+  line-height: 27px;
+}
+
+footer{
+  line-height: 1.0;
+  background-color: #E50E86;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  height: 70px;
+  font-family: 'Montserrat'; 
+  font-size: 10px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 250%;
+  bottom: 50;
+}
